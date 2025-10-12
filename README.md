@@ -1,3 +1,8 @@
+## Branch Structure
+- **original** – preserved snapshot of the original CS340 artifact
+- **enhancement** – current development branch where the environment is rebuilt and improved
+
+
 # cs340-grazioso-salvare-rescue-dashboard
 
 #Creator: Hunter Marx
