@@ -1,3 +1,8 @@
+# NOTE TO USER:
+# 1. Run this script only if you do NOT already have 'kanto_pokemon.json'.
+# 2. This will fetch all Kanto Pokémon data from the PokéAPI.
+# 3. If you already have 'kanto_pokemon.json', you can skip this script.
+
 import requests
 import json
 import time

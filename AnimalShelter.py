@@ -4,21 +4,10 @@ from bson.objectid import ObjectId
 class AnimalShelter(object):
     """ CRUD operations for Animal collection in MongoDB """
 
-    def __init__(self, username='hmarx0253', password='Opal98z', host='nv-desktop-services.apporto.com', port=31084, db="AAC", col="animals"):
+    def __init__():
 
-
-        # Initializing the MongoClient. This helps to 
-        # access the MongoDB databases and collections.
-        # This is hard-wired to use the aac database, the 
-        # animals collection, and the aac user.
-        # Definitions of the connection string variables are
-        # unique to the individual Apporto environment.
-        #
-        # You must edit the connection variables below to reflect
-        # your own instance of MongoDB!
-        #
         # Initialize Connection
-        #
+
         self.client = MongoClient(
             f'mongodb://{username}:{password}@{host}:{port}/{db}?authSource=admin',
             connectTimeoutMS=5000,
